@@ -1,4 +1,5 @@
 import 'package:flutter/widgets.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter_typeahead/src/common/field/suggestions_field.dart';
 import 'package:flutter_typeahead/src/common/search/suggestions_search.dart';
 import 'package:flutter_typeahead/src/common/base/suggestions_controller.dart';
