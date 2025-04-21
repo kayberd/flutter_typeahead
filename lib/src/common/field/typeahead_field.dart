@@ -232,6 +232,7 @@ class _RawTypeAheadFieldState<T> extends State<RawTypeAheadField<T>> {
         listBuilder: widget.listBuilder,
       ),
       child: PointerInterceptor(
+        intercepting: !kIsWeb,
         child: widget.builder(
           context,
           controller,
